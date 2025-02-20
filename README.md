@@ -7,6 +7,8 @@ programming any STM32  family board in Arduino IDE
 
 ## Board package Download
 1. Open Arduino IDE -> File -> Preferences -> Additional boards manager URLs - copy paste below lines and click Ok
+![image](https://github.com/user-attachments/assets/0521bf00-51d4-40e9-9949-acb07002fc40)
+
 ```
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json
@@ -39,6 +41,7 @@ Note: Micro USB for Serial Monitor and Mini USB for Programming / Power Supply.
    LiquidCrystal by Arduino, Adafruit
    ```
 2. Connections :
+   
    BMP280 (I2C1) -> PB6  - SCL | PB7  - SDA
 
    LCD (I2C1) -> PB6  - SCL | PB7  - SDA
