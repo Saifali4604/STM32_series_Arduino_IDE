@@ -19,7 +19,18 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 
 ## Code Uploading
 1. Make sure you open the STM32cube Programmer, just Open Don't do anything.
-2. 
+2. Plug the Board Through Mini USB (just for Programming)
+3. Choose the Below Settings :
+   ![image](https://github.com/user-attachments/assets/9fbc890c-c78c-482c-b4d7-72e6538aa591)
+
+## Serial Monitor View
+1. Plug the Board Through Mini USB (just for Power Supply).
+2. Plug the Micro USB.
+3. Open New Sketch in Arduino IDE (Blank Sketck) and Select Port -> COM Port of Micro USB.
+4. Open the Serial Monitor.
+
+Note: Micro USB for Serial Monitor and Mini USB for Programming / Power Supply.
+
 ## Weather Detection Project
 1. Libraries :
    ```
@@ -27,7 +38,8 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
    DHT sensor Library by Adafruit
    LiquidCrystal by Arduino, Adafruit
    ```
-2. Connections :![image](https://github.com/user-attachments/assets/9fbc890c-c78c-482c-b4d7-72e6538aa591)
+2. Connections :
+   ![image]()
 
    
    
