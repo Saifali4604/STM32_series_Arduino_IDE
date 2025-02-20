@@ -39,7 +39,11 @@ Note: Micro USB for Serial Monitor and Mini USB for Programming / Power Supply.
    LiquidCrystal by Arduino, Adafruit
    ```
 2. Connections :
-   ![image]()
+   BMP280 (I2C1) -> PB6  - SCL | PB7  - SDA
+   LCD (I2C1) -> PB6  - SCL | PB7  - SDA
+   DHT11 -> Data pin - PB4
+   Dust Sensor -> Anolog pin - PA0 | Led pin - PA1
+   ![image](https://github.com/Saifali4604/STM32_series_RTOS_on_Arduino_IDE/blob/main/Media/Connection%20diagram.jpg)
 
    
    
